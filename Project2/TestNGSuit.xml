@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ITPD Test Suit">
+	<test name="Sample Test">
+		<classes>
+			<class name ="TestNG.NewTest"/>
+			<class name="TestNG.TestB"/>
+		</classes>
+	</test>
+</suite>

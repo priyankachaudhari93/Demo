@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7627" started-at="2018-10-21T18:30:17Z" finished-at="2018-10-21T18:30:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7627" started-at="2018-10-21T18:30:17Z" finished-at="2018-10-21T18:30:24Z">
+      <class name="TestNG.DependencyTest">
+        <test-method status="PASS" signature="LogoutTest()[pri:0, instance:TestNG.DependencyTest@4e7912d8]" name="LogoutTest" duration-ms="7560" started-at="2018-10-22T00:00:17Z" finished-at="2018-10-22T00:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:TestNG.DependencyTest@4e7912d8]" name="LoginTest" duration-ms="31" started-at="2018-10-22T00:00:24Z" finished-at="2018-10-22T00:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="ChangePassTest()[pri:0, instance:TestNG.DependencyTest@4e7912d8]" name="ChangePassTest" duration-ms="8" started-at="2018-10-22T00:00:24Z" depends-on-methods="TestNG.DependencyTest.LoginTest" finished-at="2018-10-22T00:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassTest -->
+      </class> <!-- TestNG.DependencyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
